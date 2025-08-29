@@ -54,7 +54,8 @@ public class LibraryService {
                         inventoryService.userHistory(uname);
                         break;
                     case 11: inventoryService.statistics(); break;
-                    case 12: return;
+                    case 12:
+                     return;
                     default: System.out.println("Invalid option.");
                 }
             } else {
